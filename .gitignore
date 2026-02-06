@@ -23,5 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
-# Шаблонній компонент
+# Шаблонный компонент
 src/components/Template/
+
+# Другое
+src/components/layouts/Section/
