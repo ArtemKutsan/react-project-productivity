@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import './App.css';
 import Header from './components/layouts/Header';
-// import Footer from './components/layouts/Footer';
+import Footer from './components/layouts/Footer';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <div className="container"></div>
         </section>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
