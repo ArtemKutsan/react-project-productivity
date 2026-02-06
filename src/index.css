@@ -1,7 +1,14 @@
 /* src/index.css */
 
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/fonts/Quicksand/Quicksand-VariableFont.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -17,16 +24,26 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
-  /* margin: 0; */
+  font-family: 'Quicksand', system-ui, sans-serif;
   display: flex;
-  min-width: 320px;
   min-height: 100dvh;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 main {
   flex: 1;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
 }
 
 img {
@@ -67,8 +84,29 @@ input[type='number'] {
 }
 
 .container {
-  max-width: 768px;
   width: 100%;
+  max-width: 1280px;
+  min-width: 320px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
 }
