@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 600;
+}
+
+.link {
+  padding: 0.5rem 0.75rem;
+  color: #697ca6;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #4f46e5;
+}
+
+/* Активный вариант */
+.linkActive {
+  color: #5e81fe;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
