@@ -1,24 +1,24 @@
 // src/components/layouts/header/Navigation.jsx
 import styles from './Navigation.module.css';
 
-export default function Navigation() {
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/features', label: 'Features' },
+  { href: '/pricing', label: 'Pricing' },
+  { href: '/docs', label: 'Documentations' },
+];
+
+function Navigation() {
   return (
     <nav className={styles.nav}>
-      <a href="/" className={styles.link}>
-        Home
-      </a>
-      <a href="/blog" className={styles.link}>
-        Blog
-      </a>
-      <a href="/features" className={styles.link}>
-        Features
-      </a>
-      <a href="/pricing" className={styles.link}>
-        Pricing
-      </a>
-      <a href="/docs" className={styles.link}>
-        Documentations
-      </a>
+      {navLinks.map((link) => (
+        <a key={link.href} href={link.href} className={styles.link}>
+          {link.label}
+        </a>
+      ))}
     </nav>
   );
 }
+
+export default Navigation;
