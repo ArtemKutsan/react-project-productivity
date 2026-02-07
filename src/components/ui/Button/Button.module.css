@@ -1,0 +1,36 @@
+.button {
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* primary */
+.primary {
+  background-color: #3a79ff;
+  color: #ffffff;
+}
+
+/* primary soft */
+.primarySoft {
+  background-color: #d2e1ff;
+  color: #3a79ff;
+}
+
+/* secondary soft */
+.secondarySoft {
+  background-color: #ffd7d7;
+  color: #f43f3f;
+}
+
+/* outline */
+.outline {
+  background-color: #ffffff;
+  color: #9aa3c7;
+  border: 1px solid #d5d9e6;
+}
