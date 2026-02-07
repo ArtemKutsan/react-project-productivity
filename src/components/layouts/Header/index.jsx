@@ -1,8 +1,9 @@
 // src/components/layouts/Header/index.jsx
 import styles from './Header.module.css';
-import Navigation from '../../Navigation';
 import { Button } from '../../ui/Button';
 import Logo from '../../Logo';
+import Navigation from '../../Navigation';
+import Socials from '../../Socials';
 
 export default function Header() {
   return (
@@ -13,8 +14,8 @@ export default function Header() {
           <Navigation />
         </div>
 
-        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-          {/* <Socials /> */}
+        <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+          <Socials />
           <Button variant="primarySoft">Get started</Button>
         </div>
       </div>
