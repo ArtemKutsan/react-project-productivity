@@ -1,0 +1,40 @@
+/* src/components/Card/Card.module.css */
+
+.card {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Иконка */
+.iconWrapper {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #f1f5ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Заголовок карточки */
+.title {
+  color: #3a79ff;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Описание */
+.text {
+  color: #8d96bd;
+  font-weight: 600;
+}
