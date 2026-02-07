@@ -38,11 +38,10 @@
 }
 
 .answer {
-  padding: 1rem 0 0 0;
+  padding: 1rem;
   color: #8d96bd;
-  line-height: 1.5;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .docButton {
