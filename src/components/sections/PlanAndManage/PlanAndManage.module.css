@@ -1,0 +1,7 @@
+/* src/components/PlanAndManage/PlanAndManage.module.css */
+.planAndManage {
+  padding: 8rem 0 10rem;
+  display: flex;
+  gap: 8rem;
+  width: 100%;
+}
