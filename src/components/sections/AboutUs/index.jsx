@@ -20,9 +20,9 @@ function AboutUs() {
         </div>
 
         <div className={styles.actions}>
-          <Button variant="primarySoft">Get started</Button>
-          <span className={styles.or}>OR</span>
           <Button variant="secondarySoft">Read more</Button>
+          <span className={styles.or}>OR</span>
+          <Button variant="primarySoft">Get started</Button>
         </div>
       </div>
     </div>
