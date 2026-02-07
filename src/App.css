@@ -6,9 +6,15 @@
 }
 
 .layout {
+  position: relative;
   margin: 0 auto;
   width: 100%;
   display: flex;
   flex-direction: column;
-  min-height: 100dvh;
+  min-height: 100vh;
+}
+
+#hero {
+  display: flex;
+  flex: 1;
 }
