@@ -6,6 +6,7 @@ import Footer from './components/layouts/Footer';
 import Hero from './components/sections/Hero';
 import Customers from './components/sections/Customers';
 import AboutUs from './components/sections/AboutUs';
+import PlanAndManage from './components/sections/PlanAndManage';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         <section id="about-us">
           <AboutUs />
         </section>
+        {/* <section id="plan-and-manage">
+          <PlanAndManage />
+        </section> */}
       </main>
       <Footer />
     </>
