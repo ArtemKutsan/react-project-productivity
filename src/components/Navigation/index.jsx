@@ -3,10 +3,10 @@ import styles from './Navigation.module.css';
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/blog', label: 'Blog' },
-  { href: '/features', label: 'Features' },
-  { href: '/pricing', label: 'Pricing' },
-  { href: '/docs', label: 'Documentations' },
+  { href: '#blog', label: 'Blog' },
+  { href: '#about-us', label: 'Features' },
+  { href: '#pricing', label: 'Pricing' },
+  { href: '#docs', label: 'Documentations' },
 ];
 
 function Navigation() {
