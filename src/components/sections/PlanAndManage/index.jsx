@@ -38,8 +38,15 @@ function PlanAndManage() {
           <div style={{ flex: '1' }}>
             <img
               className="absolute"
-              style={{ flex: '1', top: '0', right: '0', padding: '4rem 0' }}
-              src="/images/plan-and-manage.png"
+              style={{
+                // top: '0',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                left: '50%',
+                // padding: '4rem 0',
+                width: '-webkit-fill-available',
+              }}
+              src="/images/plan-and-manage-2.png"
               alt=""
             />
           </div>
