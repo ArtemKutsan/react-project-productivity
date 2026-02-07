@@ -8,6 +8,6 @@ const VARIANTS = {
   outline: styles.outline,
 };
 
-export function Button({ variant = 'primary', className = '', ...props }) {
+export function Button({ variant = '', className = '', ...props }) {
   return <button {...props} className={[styles.button, VARIANTS[variant], className].join(' ')} />;
 }
