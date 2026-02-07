@@ -7,6 +7,7 @@ import Hero from './components/sections/Hero';
 import Customers from './components/sections/Customers';
 import AboutUs from './components/sections/AboutUs';
 import PlanAndManage from './components/sections/PlanAndManage';
+import CustomerHelp from './components/sections/CustomerHelp';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </section>
         <section id="plan-and-manage">
           <PlanAndManage />
+        </section>
+        <section id="customer-help">
+          <CustomerHelp />
         </section>
       </main>
       <Footer />
