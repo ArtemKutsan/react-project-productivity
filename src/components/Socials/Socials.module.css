@@ -1,0 +1,11 @@
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 719px) {
+  .socials {
+    display: none;
+  }
+}
