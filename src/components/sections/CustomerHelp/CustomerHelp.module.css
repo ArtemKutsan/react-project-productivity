@@ -1,0 +1,56 @@
+/* src/components/CustomerHelp/CustomerHelp.module.css */
+.customerHelp {
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* FAQ wrapper */
+.faq {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* FAQ item */
+.item {
+  border-bottom: 1px solid #e5e7f3;
+  padding-bottom: 1rem;
+}
+
+/* Question button */
+.question {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 1rem 0;
+  color: #495274;
+
+  font-size: 1rem;
+}
+
+/* Answer block */
+.answer {
+  padding: 1rem 0 0 0;
+  color: #8d96bd;
+  line-height: 1.5;
+  display: flex;
+
+  gap: 1.5rem;
+}
+
+.docButton {
+  align-self: flex-start;
+}
