@@ -29,7 +29,7 @@
 }
 
 .outline {
-  background-color: none;
+  background-color: transparent;
   color: #8d96bd;
   border: 1px solid #d5d9e6;
 }
