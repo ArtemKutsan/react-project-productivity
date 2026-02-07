@@ -1,7 +1,26 @@
 .footer {
+  top: 0;
+  z-index: 10;
+  padding: 6rem 0;
   width: 100%;
+  border-top: 1px solid #d8e3fe;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.inner {
   margin: 0 auto;
-  padding: 4rem 0;
-  border-top: 1px solid #e2eafe;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.link {
+  transition: opacity 150ms ease;
+}
+
+.link:hover {
+  opacity: 0.8;
 }
