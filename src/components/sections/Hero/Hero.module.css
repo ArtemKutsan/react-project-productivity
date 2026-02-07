@@ -1,0 +1,42 @@
+.heroBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  /* background: linear-gradient(to bottom, #f4f7ff 0%, #f1f5ff 100%); */
+  background: #f1f5ff;
+  background-image: url('/images/hero-bg-8.svg');
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -10;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #3d4f9f;
+}
+
+.title {
+  color: #3d4f9f;
+  font-weight: 400;
+  text-align: center;
+  background: #f1f5ff;
+  box-shadow: 0 0 1rem 1rem #f1f5ff;
+  border-radius: 1rem;
+  padding: 0;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+.description {
+  max-width: 512px;
+  color: #8d96bd;
+  background: #f1f5ff;
+  box-shadow: 0 0 1rem 1rem #f1f5ff;
+  border-radius: 1rem;
+  padding: 0;
+}
