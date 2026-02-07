@@ -11,7 +11,7 @@ function Hero() {
           <h2 className={`title font-regular text-3xl ${styles.highlight}`}>
             Increase your <span className="font-semibold">productivity</span>
           </h2>
-          <p className={styles.highlight}>
+          <p className={styles.highlight} style={{ textAlign: 'center' }}>
             Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an,
             insolens gubergren similique est cu. Et vel modus congue vituperata.
           </p>

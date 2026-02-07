@@ -11,7 +11,7 @@ function AboutUs() {
         <div className={styles.about}>
           <div className={styles.header}>
             <h2 className="title text-base uppercase">About Us</h2>
-            <p className="title text-3xl">Read about our app</p>
+            <p className="title text-2xl">Read about our app</p>
           </div>
 
           <div className={styles.grid}>

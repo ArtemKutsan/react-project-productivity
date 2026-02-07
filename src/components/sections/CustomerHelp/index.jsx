@@ -17,7 +17,7 @@ function CustomerHelp() {
         <div className={styles.customerHelp}>
           <div className={styles.header}>
             <h2 className="title text-base uppercase">Customer help</h2>
-            <p className="title text-3xl">Frequently asked questions</p>
+            <p className="title text-2xl">Frequently asked questions</p>
           </div>
 
           <div className={styles.faq}>
