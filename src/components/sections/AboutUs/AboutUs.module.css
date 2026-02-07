@@ -1,33 +1,16 @@
 /* src/components/AboutUs/AboutUs.module.css */
-
 .about {
   padding: 6rem 0;
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
-/* src/components/AboutUs/AboutUs.module.css */
 
 .header {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-}
-
-.title {
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #3d4f9f;
-  font-size: 1rem;
-  text-align: center;
-}
-
-.subtitle {
-  color: #3d4f9f;
-  font-weight: 600;
-  text-align: center;
-  font-size: 1.5rem;
+  gap: 2rem;
 }
 
 .grid {
@@ -39,10 +22,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
-}
-
-.or {
-  color: #9aa3c7;
-  font-weight: 500;
+  gap: 2rem;
 }

@@ -11,13 +11,15 @@ const customers = [
 
 export default function Customers() {
   return (
-    <div className="content">
-      <div className={styles.customers}>
-        {customers.map((customer) => (
-          <div key={customer.src} className={styles.logoItem}>
-            <img src={customer.src} alt={customer.alt} className={styles.logo} />
-          </div>
-        ))}
+    <div className="container">
+      <div className="content">
+        <div className={styles.customers}>
+          {customers.map((customer) => (
+            <div key={customer.src} className={styles.logoItem}>
+              <img src={customer.src} alt={customer.alt} className={styles.logo} />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
