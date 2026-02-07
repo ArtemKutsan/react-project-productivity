@@ -15,21 +15,29 @@
 }
 
 section#hero {
+  /* position: relative; */
   flex: 1;
   /* background-color: #f1f5ff; */
 }
 
 section#customers {
+  position: relative;
   background-color: none;
 }
 
 section#about-us {
+  position: relative;
   background-color: none;
 }
 
 section#plan-and-manage {
   position: relative;
   background-color: #f1f5ff;
+}
+
+section#customer-help {
+  position: relative;
+  background-color: none;
 }
 
 .title {

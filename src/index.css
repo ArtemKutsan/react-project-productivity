@@ -57,6 +57,12 @@ img {
   display: block;
 }
 
+button {
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 input[type='text'],
 input[type='email'],
 input[type='password'],
