@@ -7,8 +7,13 @@ function Hero() {
       <div className={styles.heroBg}></div>
       <div className="container">
         <div className={`content ${styles.hero}`}>
+          <div className={styles.row}>
+            <div className={styles.bubbleLeft}></div>
+            <div className={styles.bubbleCenter}></div>
+            <div className={styles.bubbleRight}></div>
+          </div>
           <p className="title uppercase text-sm font-bold">Plan your life</p>
-          <h1 className={`title font-regular text-4xl ${styles.highlight}`}>
+          <h1 className={`title font-regular text-4xl text-center ${styles.highlight}`}>
             Increase your <span className="font-semibold">productivity</span>
           </h1>
           <p className={styles.highlight} style={{ textAlign: 'center' }}>
