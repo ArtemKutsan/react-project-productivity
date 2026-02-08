@@ -129,3 +129,7 @@ section#customer-help {
 .absolute {
   position: absolute;
 }
+
+.text-center {
+  text-align: center;
+}
