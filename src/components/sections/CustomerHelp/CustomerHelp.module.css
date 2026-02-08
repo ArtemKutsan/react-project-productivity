@@ -10,7 +10,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .faq {
@@ -42,8 +42,9 @@
   color: #8d96bd;
   display: flex;
   gap: 2rem;
+  /* align-items: center; */
 }
 
 .docButton {
-  align-self: flex-start;
+  align-self: center;
 }

@@ -7,10 +7,10 @@ function Hero() {
       <div className={styles.heroBg}></div>
       <div className="container">
         <div className={`content ${styles.hero}`}>
-          <h1 className="title uppercase text-base">Plan your life</h1>
-          <h2 className={`title font-regular text-3xl ${styles.highlight}`}>
+          <p className="title uppercase text-sm font-bold">Plan your life</p>
+          <h1 className={`title font-regular text-4xl ${styles.highlight}`}>
             Increase your <span className="font-semibold">productivity</span>
-          </h2>
+          </h1>
           <p className={styles.highlight} style={{ textAlign: 'center' }}>
             Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an,
             insolens gubergren similique est cu. Et vel modus congue vituperata.

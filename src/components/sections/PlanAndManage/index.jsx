@@ -7,9 +7,9 @@ function PlanAndManage() {
     <div className="container">
       <div className="content">
         <div className={styles.planAndManage}>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', flex: '1' }}>
-            <h2 className="title uppercase text-base">DESKTOP AND MOBILE APP</h2>
-            <p className={`title font-regular text-3xl ${styles.highlight}`}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flex: '1' }}>
+            <h2 className="title uppercase text-sm font-bold">DESKTOP AND MOBILE APP</h2>
+            <p className={`title font-regular text-4xl ${styles.highlight}`}>
               <span className="font-semibold">Plan</span> and{' '}
               <span className="font-semibold">manage</span>
             </p>
@@ -19,7 +19,7 @@ function PlanAndManage() {
               no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.
             </p>
 
-            <div>
+            <div style={{ marginTop: '2rem' }}>
               <Button
                 variant="primary"
                 style={{ borderTopRightRadius: '0', borderBottomRightRadius: '0' }}

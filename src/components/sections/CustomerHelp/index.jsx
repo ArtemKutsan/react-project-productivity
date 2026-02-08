@@ -16,8 +16,8 @@ function CustomerHelp() {
       <div className="content">
         <div className={styles.customerHelp}>
           <div className={styles.header}>
-            <h2 className="title text-base uppercase">Customer help</h2>
-            <p className="title text-2xl">Frequently asked questions</p>
+            <h2 className="title text-sm uppercase font-bold">Customer help</h2>
+            <p className="title text-4xl">Frequently asked questions</p>
           </div>
 
           <div className={styles.faq}>
