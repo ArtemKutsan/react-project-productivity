@@ -41,10 +41,20 @@
   padding: 1rem;
   color: #8d96bd;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   /* align-items: center; */
 }
 
 .docButton {
   align-self: center;
+}
+
+@media (max-width: 719px) {
+  .answer {
+    flex-direction: column;
+  }
+
+  .docButton {
+    align-self: self-start;
+  }
 }
