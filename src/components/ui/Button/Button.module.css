@@ -11,6 +11,10 @@
   background: none;
   color: #7382a3;
   background-color: #e8ecf4;
+  box-shadow: 0 0.5rem 1rem rgba(232, 236, 244, 0.25);
+}
+.button:active {
+  box-shadow: none;
 }
 
 .primary {
