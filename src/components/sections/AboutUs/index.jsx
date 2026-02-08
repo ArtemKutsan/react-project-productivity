@@ -6,9 +6,9 @@ import { aboutCards } from './cardsData';
 
 function AboutUs() {
   return (
-    <div className="container">
+    <div className={`container ${styles.aboutUsBg}`}>
       <div className="content">
-        <div className={styles.about}>
+        <div className={styles.aboutUs}>
           <div className={styles.header}>
             <h2 className="title text-sm uppercase font-bold">About Us</h2>
             <p className="title text-4xl">Read about our app</p>
