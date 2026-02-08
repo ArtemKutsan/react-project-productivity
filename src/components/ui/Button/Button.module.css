@@ -16,16 +16,37 @@
 .primary {
   background-color: #3a79ff;
   color: #ffffff;
+  box-shadow: 0 0.5rem 1rem rgba(56, 119, 255, 0.25);
+}
+.primarySoft:active {
+  box-shadow: none;
 }
 
 .primarySoft {
   background-color: #d2e1ff;
   color: #3a79ff;
+  box-shadow: 0 0.5rem 1rem rgba(210, 225, 255, 0.25);
+}
+.primarySoft:active {
+  box-shadow: none;
+}
+
+.secondary {
+  background-color: #f43f3f;
+  color: #ffffff;
+  box-shadow: 0 0.5rem 1rem rgba(244, 63, 63, 0.25);
+}
+.secondary:active {
+  box-shadow: none;
 }
 
 .secondarySoft {
   background-color: #ffd7d7;
   color: #f43f3f;
+  box-shadow: 0 0.5rem 1rem rgba(255, 215, 215, 0.25);
+}
+.secondarySoft:active {
+  box-shadow: none;
 }
 
 .outline {
