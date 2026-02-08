@@ -18,7 +18,7 @@
   color: #ffffff;
   box-shadow: 0 0.5rem 1rem rgba(56, 119, 255, 0.25);
 }
-.primarySoft:active {
+.primary:active {
   box-shadow: none;
 }
 
